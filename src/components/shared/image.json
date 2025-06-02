@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_images",
+  "info": {
+    "displayName": "Image",
+    "description": "Image component with metadata"
+  },
+  "options": {},
+  "attributes": {
+    "src": {
+      "type": "string",
+      "required": true
+    },
+    "cmsImageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "json"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "imageName": {
+      "type": "string"
+    },
+    "s3FilePath": {
+      "type": "string"
+    }
+  }
+} 

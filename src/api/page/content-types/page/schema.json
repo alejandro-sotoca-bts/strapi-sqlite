@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": "Pages for the application"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageUuid": {
+      "type": "uid",
+      "required": true
+    },
+    "pageId": {
+      "type": "string",
+      "required": true
+    },
+    "config": {
+      "type": "component",
+      "component": "page.page-config",
+      "required": true
+    },
+    "container": {
+      "type": "component",
+      "component": "page.container",
+      "repeatable": true,
+      "required": true
+    },
+    "facilitatorNotes": {
+      "type": "component",
+      "component": "page.facilitator-note",
+      "repeatable": true
+    },
+    "timer": {
+      "type": "integer"
+    }
+  }
+}
