@@ -1,13 +1,12 @@
 {
   "collectionName": "components_page_page_configs",
   "info": {
-    "displayName": "Page Config",
-    "description": "Configuration for the page including background settings"
+    "displayName": "Page Config"
   },
-  "options": {},
   "attributes": {
     "background": {
       "type": "component",
+      "repeatable": false,
       "component": "shared.background",
       "required": true
     }

@@ -1,35 +1,22 @@
 {
   "collectionName": "components_page_containers",
   "info": {
-    "displayName": "Container",
-    "description": "Container component for page layout"
+    "displayName": "Container"
   },
-  "options": {},
   "attributes": {
-    "layoutType": {
-      "type": "string",
-      "required": true
-    },
-    "containerId": {
-      "type": "uid",
-      "required": true
-    },
+    "layoutType": { "type": "string" },
+    "containerId": { "type": "string" },
     "config": {
       "type": "component",
-      "component": "shared.background",
-      "required": true
+      "repeatable": false,
+      "component": "page.container-config"
     },
-    "columnDistribution": {
-      "type": "string"
-    },
-    "containerWidth": {
-      "type": "integer"
-    },
+    "columnDistribution": { "type": "string" },
+    "containerWidth": { "type": "integer" },
     "column": {
       "type": "component",
-      "component": "page.column",
       "repeatable": true,
-      "required": true
+      "component": "page.column"
     }
   }
 } 

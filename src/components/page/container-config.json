@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_page_container_configs",
+  "info": {
+    "displayName": "Container Config"
+  },
+  "attributes": {
+    "background": { "type": "json" },
+    "componentsWidth": { "type": "string" },
+    "columnAlignment": { "type": "string" }
+  }
+} 

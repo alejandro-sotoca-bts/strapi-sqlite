@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_page_column_configs",
+  "info": {
+    "displayName": "Column Config"
+  },
+  "attributes": {
+    "background": { "type": "json" },
+    "componentsWidth": { "type": "string" }
+  }
+} 

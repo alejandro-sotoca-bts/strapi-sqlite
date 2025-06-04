@@ -1,24 +1,14 @@
 {
   "collectionName": "components_shared_backgrounds",
   "info": {
-    "displayName": "Background",
-    "description": "Background configuration with image and color options"
+    "displayName": "Background"
   },
-  "options": {},
   "attributes": {
     "backgroundImage": {
       "type": "component",
+      "repeatable": false,
       "component": "shared.image",
-      "required": false
-    },
-    "backgroundColor": {
-      "type": "string"
-    },
-    "opacity": {
-      "type": "decimal",
-      "min": 0,
-      "max": 1,
-      "default": 1
+      "required": true
     }
   }
 } 

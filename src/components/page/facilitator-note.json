@@ -1,22 +1,11 @@
 {
   "collectionName": "components_page_facilitator_notes",
   "info": {
-    "displayName": "Facilitator Note",
-    "description": "Facilitator notes for pages"
+    "displayName": "Facilitator Note"
   },
-  "options": {},
   "attributes": {
-    "noteId": {
-      "type": "uid",
-      "required": true
-    },
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "text",
-      "required": true
-    }
+    "noteId": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "string" }
   }
 } 

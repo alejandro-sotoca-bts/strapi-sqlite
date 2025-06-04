@@ -1,22 +1,11 @@
 {
   "collectionName": "components_page_blocks",
   "info": {
-    "displayName": "Block",
-    "description": "Block component for page content"
+    "displayName": "Block"
   },
-  "options": {},
   "attributes": {
-    "type": {
-      "type": "string",
-      "required": true
-    },
-    "content": {
-      "type": "json",
-      "required": true
-    },
-    "config": {
-      "type": "json",
-      "required": true
-    }
+    "type": { "type": "string" },
+    "content": { "type": "json" },
+    "config": { "type": "json" }
   }
 } 

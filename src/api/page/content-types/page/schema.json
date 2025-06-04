@@ -1,16 +1,13 @@
 {
-  "kind": "collectionType",
   "collectionName": "pages",
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Page",
-    "description": "Pages for the application"
+    "displayName": "Page"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
-  "pluginOptions": {},
   "attributes": {
     "pageUuid": {
       "type": "uid",
@@ -22,22 +19,22 @@
     },
     "config": {
       "type": "component",
+      "repeatable": false,
       "component": "page.page-config",
       "required": true
     },
     "container": {
       "type": "component",
-      "component": "page.container",
       "repeatable": true,
-      "required": true
+      "component": "page.container"
     },
     "facilitatorNotes": {
       "type": "component",
-      "component": "page.facilitator-note",
-      "repeatable": true
+      "repeatable": true,
+      "component": "page.facilitator-note"
     },
     "timer": {
       "type": "integer"
     }
   }
-}
+} 
