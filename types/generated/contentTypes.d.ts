@@ -376,17 +376,19 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
 export interface ApiPagePage extends Struct.CollectionTypeSchema {
   collectionName: 'pages';
   info: {
+    description: 'Pages for the application';
     displayName: 'Page';
     pluralName: 'pages';
     singularName: 'page';
   };
   options: {
-    draftAndPublish: false;
+    draftAndPublish: true;
   };
   attributes: {
     config: Schema.Attribute.Component<'page.page-config', false> &
       Schema.Attribute.Required;
-    container: Schema.Attribute.Component<'page.container', true>;
+    container: Schema.Attribute.Component<'page.container', true> &
+      Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

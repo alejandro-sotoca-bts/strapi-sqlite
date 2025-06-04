@@ -1,8 +1,10 @@
 {
   "collectionName": "components_shared_images",
   "info": {
-    "displayName": "Image"
+    "displayName": "Image",
+    "description": "Image component with metadata"
   },
+  "options": {},
   "attributes": {
     "src": {
       "type": "string",

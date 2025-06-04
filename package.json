@@ -1,5 +1,5 @@
 {
-  "name": "strapi-pulsie",
+  "name": "pulsie-strapi",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -22,24 +22,15 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "strapi-import-export": "^0.0.1",
-    "styled-components": "^6.0.0"
+    "styled-components": "^6.0.0",
+    "vite": "^6.3.5"
   },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "6deec1c1-423a-48c7-a36f-d55752b98f07",
-    "installId": "07423cf4178e27838482779aa5fd117363fa9d6ad3d7cea6119945234ce18a46"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@swc/core",
-      "better-sqlite3",
-      "core-js-pure",
-      "esbuild",
-      "sharp"
-    ]
+    "uuid": "2ac41f91-3b0c-4a95-87ee-cf45d51d9fb3",
+    "installId": "723bb104d09098a4f19b1976b2b7ad89dfffa0203e2b064077bdb2995a11e4e2"
   }
 }

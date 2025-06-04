@@ -1,21 +1,32 @@
 {
   "collectionName": "components_page_columns",
   "info": {
-    "displayName": "Column"
+    "displayName": "Column",
+    "description": "Column component for page layout"
   },
+  "options": {},
   "attributes": {
-    "columnId": { "type": "string" },
-    "label": { "type": "string" },
-    "col": { "type": "integer" },
+    "columnId": {
+      "type": "uid",
+      "required": true
+    },
+    "label": {
+      "type": "string"
+    },
+    "col": {
+      "type": "integer",
+      "required": true
+    },
     "blocks": {
       "type": "component",
+      "component": "page.block",
       "repeatable": true,
-      "component": "page.block"
+      "required": true
     },
     "config": {
       "type": "component",
-      "repeatable": false,
-      "component": "page.column-config"
+      "component": "shared.background",
+      "required": true
     }
   }
 } 
