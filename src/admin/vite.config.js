@@ -1,6 +1,6 @@
-const { mergeConfig } = require('vite');
+import { mergeConfig } from 'vite';
 
-module.exports = (config) => {
+export default (config) => {
   return mergeConfig(config, {
     resolve: {
       alias: {
